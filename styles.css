@@ -1,0 +1,24 @@
+/* Дополнительные стили, если потребуются */
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Плавные переходы для всех ссылок */
+a {
+    transition: all 0.3s ease;
+}
+
+/* Убираем подчеркивание у ссылок */
+a {
+    text-decoration: none;
+}
+
+/* Оптимизация для мобильных устройств */
+@media (max-width: 640px) {
+    .text-4xl {
+        font-size: 2rem;
+    }
+    .text-lg {
+        font-size: 1rem;
+    }
+}
